@@ -9,6 +9,7 @@ a { text-decoration: none; color: #333; }
 .container { margin: 0 auto; width: 100%; }
 .container .row { width: 62%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; margin: 0 auto; }
 .container .row .subMenuList { width: 30%; float: left; }
+@media (max-width: 800px) { .container .row .subMenuList { display: none; } }
 .container .row .subMenuList ul { width: 220px; }
 .container .row .subMenuList ul li { overflow: hidden; padding: 5px 0; }
 .container .row .subMenuList ul li span { float: right; }

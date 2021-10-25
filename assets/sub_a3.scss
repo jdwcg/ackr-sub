@@ -16,6 +16,9 @@ a {text-decoration: none; color:#333;}
     .subMenuList {
       width:30%;
       float:left;
+      @media (max-width: 800px) {
+        display: none;
+      }
 
       ul {
         width:220px;
