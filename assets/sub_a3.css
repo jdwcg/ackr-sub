@@ -1,3 +1,18 @@
 div { border: 1px solid red; }
 
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+li { list-style: none; }
+
+a { text-decoration: none; color: #333; }
+
+.container { margin: 0 auto; width: 100%; }
+.container .row { width: 1200px; overflow: hidden; margin: 0 auto; }
+.container .row .subMenuList { width: 40%; float: left; background-color: pink; }
+.container .row .subMenuList ul li { list-style: none; }
+.container .row .subMenuList ul li a { display: block; text-decoration: none; color: #333; }
+.container .col { widht: 60%; float: right; }
+.container .col #article { text-align: left; }
+.container .col #article h2 img { width: 600px; }
+
 /*# sourceMappingURL=sub_a3.css.map */

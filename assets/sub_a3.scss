@@ -1,1 +1,48 @@
 div {border: 1px solid red;}
+* { margin: 0;  padding: 0; box-sizing: border-box; }
+li { list-style: none;}
+a {text-decoration: none; color:#333;}
+
+.container {
+  margin:0 auto;
+  width:100%;
+
+  .row {
+    width:1200px;
+    overflow: hidden;
+    margin:0 auto;
+
+    .subMenuList {
+      width:40%;
+      float:left;
+      background-color: pink;
+
+      ul {
+        li {
+          list-style: none;
+          a {
+            display:block;
+            text-decoration: none;
+            color:#333;
+          }
+        }
+      }
+    }
+  }
+
+  .col {
+    widht:60%;
+    float:right;
+    #article { text-align: left;
+      h1 {}
+      h2 {
+        img { width:600px; }
+      }
+      div {
+        .first {}
+        .second {}
+        .third {}
+      }
+    }
+  }
+}
