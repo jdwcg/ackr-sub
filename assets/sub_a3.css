@@ -7,12 +7,18 @@ li { list-style: none; }
 a { text-decoration: none; color: #333; }
 
 .container { margin: 0 auto; width: 100%; }
-.container .row { width: 1200px; overflow: hidden; margin: 0 auto; }
-.container .row .subMenuList { width: 40%; float: left; background-color: pink; }
+.container .row { width: 1200px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; margin: 0 auto; }
+.container .row .subMenuList { width: 30%; float: left; background-color: pink; }
+.container .row .subMenuList ul { width: 240px; }
 .container .row .subMenuList ul li { list-style: none; }
-.container .row .subMenuList ul li a { display: block; text-decoration: none; color: #333; }
-.container .col { widht: 60%; float: right; }
+.container .row .subMenuList ul li li:nth-of-type(2) { margin-left: 120px; }
+.container .row .subMenuList ul li a { display: block; text-decoration: none; color: #333; font-size: 16px; -webkit-transition: .4s; transition: .4s; }
+.container .col { widht: 70%; float: right; padding: 32px 0; }
 .container .col #article { text-align: left; }
+.container .col #article h1 { font-size: 2rem; text-align: center; padding: 1rem 0; font-weight: normal; }
+.container .col #article h2 { text-align: center; }
 .container .col #article h2 img { width: 600px; }
+.container .col #article .project { width: 450px; }
+.container .col #article .project .first { font-weight: bold; }
 
 /*# sourceMappingURL=sub_a3.css.map */

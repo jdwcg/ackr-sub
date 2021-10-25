@@ -9,21 +9,27 @@ a {text-decoration: none; color:#333;}
 
   .row {
     width:1200px;
-    overflow: hidden;
+    display:flex;
+    flex-wrap: nowrap;
     margin:0 auto;
 
     .subMenuList {
-      width:40%;
+      width:30%;
       float:left;
       background-color: pink;
 
       ul {
+        width:240px;
         li {
           list-style: none;
+
+          li:nth-of-type(2) { margin-left: 120px;}
           a {
             display:block;
             text-decoration: none;
             color:#333;
+            font-size: 16px;
+            transition: .4s;
           }
         }
       }
@@ -31,15 +37,24 @@ a {text-decoration: none; color:#333;}
   }
 
   .col {
-    widht:60%;
+    widht:70%;
     float:right;
+    padding:32px 0;
+
     #article { text-align: left;
-      h1 {}
+      h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding:1rem 0;
+        font-weight: normal;
+      }
       h2 {
+        text-align: center;
         img { width:600px; }
       }
-      div {
-        .first {}
+      .project {
+        width:450px;
+        .first { font-weight: bold;}
         .second {}
         .third {}
       }
