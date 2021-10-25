@@ -1,4 +1,4 @@
-div {border: 1px solid red;}
+div {border: 1px solid red; }
 * { margin: 0;  padding: 0; box-sizing: border-box; }
 li { list-style: none;}
 a {text-decoration: none; color:#333;}
@@ -8,7 +8,7 @@ a {text-decoration: none; color:#333;}
   width:100%;
 
   .row {
-    width:1200px;
+    width:62%;
     display:flex;
     flex-wrap: nowrap;
     margin:0 auto;
@@ -16,22 +16,21 @@ a {text-decoration: none; color:#333;}
     .subMenuList {
       width:30%;
       float:left;
-      background-color: pink;
 
       ul {
-        width:240px;
+        width:220px;
         li {
-          list-style: none;
-
-          li:nth-of-type(2) { margin-left: 120px;}
+          overflow:hidden;
+          padding:5px 0;
+        span { float:right;}
           a {
             display:block;
-            text-decoration: none;
             color:#333;
             font-size: 16px;
             transition: .4s;
           }
         }
+        :hover { color:red; }
       }
     }
   }
@@ -41,22 +40,26 @@ a {text-decoration: none; color:#333;}
     float:right;
     padding:32px 0;
 
-    #article { text-align: left;
+    #article {
+      .sampleClass { width:80%; }
+      #line { padding:0 2em; }
       h1 {
+        width:100%;
         font-size: 2rem;
         text-align: center;
-        padding:1rem 0;
+        padding:2rem 0;
         font-weight: normal;
       }
       h2 {
         text-align: center;
-        img { width:600px; }
+        width:100%;
+        img { width:100%; }
       }
       .project {
-        width:450px;
-        .first { font-weight: bold;}
-        .second {}
-        .third {}
+        width: 100%;
+        margin-top: 80px;
+        .first { font-weight: bold; margin-bottom:50px;}
+        .second {margin-bottom: 50px;}
       }
     }
   }

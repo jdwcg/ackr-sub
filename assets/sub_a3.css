@@ -7,18 +7,21 @@ li { list-style: none; }
 a { text-decoration: none; color: #333; }
 
 .container { margin: 0 auto; width: 100%; }
-.container .row { width: 1200px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; margin: 0 auto; }
-.container .row .subMenuList { width: 30%; float: left; background-color: pink; }
-.container .row .subMenuList ul { width: 240px; }
-.container .row .subMenuList ul li { list-style: none; }
-.container .row .subMenuList ul li li:nth-of-type(2) { margin-left: 120px; }
-.container .row .subMenuList ul li a { display: block; text-decoration: none; color: #333; font-size: 16px; -webkit-transition: .4s; transition: .4s; }
+.container .row { width: 62%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; margin: 0 auto; }
+.container .row .subMenuList { width: 30%; float: left; }
+.container .row .subMenuList ul { width: 220px; }
+.container .row .subMenuList ul li { overflow: hidden; padding: 5px 0; }
+.container .row .subMenuList ul li span { float: right; }
+.container .row .subMenuList ul li a { display: block; color: #333; font-size: 16px; -webkit-transition: .4s; transition: .4s; }
+.container .row .subMenuList ul :hover { color: red; }
 .container .col { widht: 70%; float: right; padding: 32px 0; }
-.container .col #article { text-align: left; }
-.container .col #article h1 { font-size: 2rem; text-align: center; padding: 1rem 0; font-weight: normal; }
-.container .col #article h2 { text-align: center; }
-.container .col #article h2 img { width: 600px; }
-.container .col #article .project { width: 450px; }
-.container .col #article .project .first { font-weight: bold; }
+.container .col #article .sampleClass { width: 80%; }
+.container .col #article #line { padding: 0 2em; }
+.container .col #article h1 { width: 100%; font-size: 2rem; text-align: center; padding: 2rem 0; font-weight: normal; }
+.container .col #article h2 { text-align: center; width: 100%; }
+.container .col #article h2 img { width: 100%; }
+.container .col #article .project { width: 100%; margin-top: 80px; }
+.container .col #article .project .first { font-weight: bold; margin-bottom: 50px; }
+.container .col #article .project .second { margin-bottom: 50px; }
 
 /*# sourceMappingURL=sub_a3.css.map */
