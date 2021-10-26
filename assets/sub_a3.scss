@@ -1,4 +1,3 @@
-div {border: 1px solid red; }
 * { margin: 0;  padding: 0; box-sizing: border-box; }
 li { list-style: none;}
 a {text-decoration: none; color:#333;}
@@ -6,46 +5,51 @@ a {text-decoration: none; color:#333;}
 .container {
   margin:0 auto;
   width:100%;
+  max-width: 1200px;
+  h1 { text-align: center;}
 
   .row {
-    width:62%;
+    width:100%;
+    padding:0 2rem;
     display:flex;
-    flex-wrap: nowrap;
     margin:0 auto;
 
     .subMenuList {
-      width:30%;
-      float:left;
+      width:100%;
+      flex:2;
+      border-right: 1px solid #ddd;
       @media (max-width: 800px) {
         display: none;
       }
 
       ul {
-        width:220px;
+        width:100%;
         li {
           overflow:hidden;
-          padding:5px 0;
+          padding:8px 0;
+          transition: .4s;
         span { float:right;}
           a {
             display:block;
             color:#333;
             font-size: 16px;
             transition: .4s;
+            padding:0 1em;
           }
         }
-        :hover { color:red; }
+        :hover { background-color: #ddd; }
+        :hover a { color:red; }
       }
     }
   }
 
   .col {
-    widht:70%;
-    float:right;
+    width:100%;
+    flex:8;
     padding:32px 0;
 
     #article {
-      .sampleClass { width:80%; }
-      #line { padding:0 2em; }
+      #line { padding:0 2em;}
       h1 {
         width:100%;
         font-size: 2rem;
@@ -54,8 +58,8 @@ a {text-decoration: none; color:#333;}
         font-weight: normal;
       }
       h2 {
-        text-align: center;
-        width:100%;
+        margin:0 auto;
+        width:70%;
         img { width:100%; }
       }
       .project {

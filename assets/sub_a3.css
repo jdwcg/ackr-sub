@@ -1,25 +1,24 @@
-div { border: 1px solid red; }
-
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 li { list-style: none; }
 
 a { text-decoration: none; color: #333; }
 
-.container { margin: 0 auto; width: 100%; }
-.container .row { width: 62%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; margin: 0 auto; }
-.container .row .subMenuList { width: 30%; float: left; }
+.container { margin: 0 auto; width: 100%; max-width: 1200px; }
+.container h1 { text-align: center; }
+.container .row { width: 100%; padding: 0 2rem; display: -webkit-box; display: -ms-flexbox; display: flex; margin: 0 auto; }
+.container .row .subMenuList { width: 100%; -webkit-box-flex: 2; -ms-flex: 2; flex: 2; border-right: 1px solid #ddd; }
 @media (max-width: 800px) { .container .row .subMenuList { display: none; } }
-.container .row .subMenuList ul { width: 220px; }
-.container .row .subMenuList ul li { overflow: hidden; padding: 5px 0; }
+.container .row .subMenuList ul { width: 100%; }
+.container .row .subMenuList ul li { overflow: hidden; padding: 8px 0; -webkit-transition: .4s; transition: .4s; }
 .container .row .subMenuList ul li span { float: right; }
-.container .row .subMenuList ul li a { display: block; color: #333; font-size: 16px; -webkit-transition: .4s; transition: .4s; }
-.container .row .subMenuList ul :hover { color: red; }
-.container .col { widht: 70%; float: right; padding: 32px 0; }
-.container .col #article .sampleClass { width: 80%; }
+.container .row .subMenuList ul li a { display: block; color: #333; font-size: 16px; -webkit-transition: .4s; transition: .4s; padding: 0 1em; }
+.container .row .subMenuList ul :hover { background-color: #ddd; }
+.container .row .subMenuList ul :hover a { color: red; }
+.container .col { width: 100%; -webkit-box-flex: 8; -ms-flex: 8; flex: 8; padding: 32px 0; }
 .container .col #article #line { padding: 0 2em; }
 .container .col #article h1 { width: 100%; font-size: 2rem; text-align: center; padding: 2rem 0; font-weight: normal; }
-.container .col #article h2 { text-align: center; width: 100%; }
+.container .col #article h2 { margin: 0 auto; width: 70%; }
 .container .col #article h2 img { width: 100%; }
 .container .col #article .project { width: 100%; margin-top: 80px; }
 .container .col #article .project .first { font-weight: bold; margin-bottom: 50px; }
