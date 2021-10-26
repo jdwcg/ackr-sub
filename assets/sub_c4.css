@@ -19,13 +19,16 @@ a { text-decoration: none; color: #333; }
 .container .col #article #line { padding: 0 2em; }
 @media (max-width: 800px) { .container .col #article #line { padding: 0; } }
 .container .col #article h1 { width: 100%; font-size: 2rem; text-align: center; padding: 2rem 0; font-weight: normal; }
-.container .col #article .main { display: -webkit-box; display: -ms-flexbox; display: flex; }
-.container .col #article .main .left { width: 18%; -webkit-box-flex: 5; -ms-flex: 5; flex: 5; padding-right: 2%; }
-.container .col #article .main .left figure { width: 100%; margin-bottom: 45px; }
-.container .col #article .main .left figure img { width: 100%; }
-.container .col #article .main .right { -webkit-box-flex: 5; -ms-flex: 5; flex: 5; }
-.container .col #article .main .right div { margin-bottom: 45px; }
-.container .col #article .main .right div h2 { font-size: 1.1rem; margin-bottom: 10px; }
-.container .col #article .main .right div h3 { font-size: 1rem; font-weight: normal; }
+.container .col #article .main div { margin-bottom: 40px; }
+.container .col #article .main div h2 { font-size: 1rem; margin-bottom: 20px; }
+.container .col #article .main div h3 { font-size: 1rem; font-weight: normal; }
+.container .col #article .main .first { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.container .col #article .main .first figure { -webkit-box-flex: 5; -ms-flex: 5; flex: 5; width: 50%; margin-right: 2%; }
+.container .col #article .main .first figure img { width: 100%; }
+.container .col #article .main .first .box1 { -webkit-box-flex: 5; -ms-flex: 5; flex: 5; margin-left: 2%; }
+.container .col #article .main .second { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.container .col #article .main .second figure { -webkit-box-flex: 5; -ms-flex: 5; flex: 5; width: 50%; margin-right: 2%; }
+.container .col #article .main .second figure img { width: 100%; }
+.container .col #article .main .second .box2 { -webkit-box-flex: 5; -ms-flex: 5; flex: 5; margin-left: 2%; }
 
 /*# sourceMappingURL=sub_c4.css.map */

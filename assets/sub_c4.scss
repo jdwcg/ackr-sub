@@ -65,25 +65,47 @@ a {text-decoration: none; color:#333;}
       }
 
       .main {
-        display: flex;
+        div { margin-bottom: 40px; }
+        div h2 { font-size:1rem; margin-bottom: 20px;}
+        div h3 { font-size:1rem; font-weight: normal;}
 
-        .left {
-            width: 18%;
+        .first {
+          display: flex;
+          figure {
             flex: 5;
-            padding-right: 2%;
+            width:50%;
+            img {width: 100%;}
+            margin-right: 2%;
+          }
+          .box1 {
+            flex: 5;
+            margin-left: 2%;
+          }
+        }
+        .second {
+          display: flex;
+          flex-wrap: wrap;
 
-            figure {
-              width:100%;
-              margin-bottom: 45px;
-              img { width:100%; }
-            }
+          figure {
+            flex: 5;
+            width:50%;
+            img {width: 100%;}
+            margin-right: 2%;
+          }
+          .box2 {
+            flex: 5;
+            margin-left: 2%;
+          }
+          .box3 {
+
+          }
+          .box4 {
+
+          }
         }
 
-        .right {
-          flex: 5;
-          div { margin-bottom: 45px; }
-          div h2 { font-size:1.1rem; margin-bottom: 10px;}
-          div h3 { font-size: 1rem; font-weight: normal;}
+        .third {
+          .box5 {}
         }
       }
 
