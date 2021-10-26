@@ -6,20 +6,15 @@ a {text-decoration: none; color:#333;}
   margin:0 auto;
   width:100%;
   max-width: 1200px;
-  h1 { text-align: center;}
 
   .row {
     width:100%;
     padding:0 2rem;
     display:flex;
     margin:0 auto;
-    @media (max-width: 800px) {
-      padding: 0;
-    }
 
 
     .subMenuList {
-      width:100%;
       flex:2;
       border-right: 1px solid #ddd;
       @media (max-width: 800px) {
@@ -48,35 +43,8 @@ a {text-decoration: none; color:#333;}
   }
 
   .col {
-    width:100%;
     flex:8;
     padding:32px 0;
 
-    #article {
-      #line { padding:0 2em;
-        @media (max-width: 800px) {
-          padding: 0;
-        }
-      }
-
-      h1 {
-        width:100%;
-        font-size: 2rem;
-        text-align: center;
-        padding:2rem 0;
-        font-weight: normal;
-      }
-      h2 {
-        margin:0 auto;
-        width:70%;
-        img { width:100%; }
-      }
-      .project {
-        width: 100%;
-        margin-top: 80px;
-        .first { font-weight: bold; margin-bottom:50px;}
-        .second {margin-bottom: 50px;}
-      }
-    }
   }
 }
