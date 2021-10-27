@@ -10,7 +10,6 @@ a {text-decoration: none; color:#333;}
 
   .row {
     width:100%;
-    padding:0 2rem;
     display:flex;
     margin:0 auto;
 
@@ -27,7 +26,6 @@ a {text-decoration: none; color:#333;}
         width:100%;
         li {
           overflow:hidden;
-          padding:8px 0;
           transition: .4s;
         span { float:right;}
           a {
@@ -35,11 +33,11 @@ a {text-decoration: none; color:#333;}
             color:#333;
             font-size: 16px;
             transition: .4s;
-            padding:0 1em;
+            padding:0.4rem 1em;
           }
         }
         :hover { background-color: #ddd; }
-        :hover a { color:red; }
+        :hover a { color:#a81f00; }
       }
     }
   }

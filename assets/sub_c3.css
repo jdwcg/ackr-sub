@@ -5,15 +5,15 @@ li { list-style: none; }
 a { text-decoration: none; color: #333; }
 
 .container { margin: 0 auto; width: 100%; max-width: 1200px; }
-.container .row { width: 100%; padding: 0 2rem; display: -webkit-box; display: -ms-flexbox; display: flex; margin: 0 auto; }
+.container .row { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; margin: 0 auto; }
 .container .row .subMenuList { -webkit-box-flex: 2; -ms-flex: 2; flex: 2; border-right: 1px solid #ddd; }
 @media (max-width: 800px) { .container .row .subMenuList { display: none; } }
 .container .row .subMenuList ul { width: 100%; }
-.container .row .subMenuList ul li { overflow: hidden; padding: 8px 0; -webkit-transition: .4s; transition: .4s; }
+.container .row .subMenuList ul li { overflow: hidden; -webkit-transition: .4s; transition: .4s; }
 .container .row .subMenuList ul li span { float: right; }
-.container .row .subMenuList ul li a { display: block; color: #333; font-size: 16px; -webkit-transition: .4s; transition: .4s; padding: 0 1em; }
+.container .row .subMenuList ul li a { display: block; color: #333; font-size: 16px; -webkit-transition: .4s; transition: .4s; padding: 0.4rem 1em; }
 .container .row .subMenuList ul :hover { background-color: #ddd; }
-.container .row .subMenuList ul :hover a { color: red; }
+.container .row .subMenuList ul :hover a { color: #a81f00; }
 .container .row .subArticle { -webkit-box-flex: 8; -ms-flex: 8; flex: 8; padding: 32px 0; }
 .container .row .subArticle #article #line { padding: 0 2em; }
 @media (max-width: 800px) { .container .row .subArticle #article #line { padding: 0; } }
