@@ -17,7 +17,6 @@ pre { font-family: sans-serif; }
 .container .row .subMenuList ul :hover a { color: #a81f00; }
 .container .col { width: 100%; -webkit-box-flex: 8; -ms-flex: 8; flex: 8; padding: 32px 0; }
 .container .col #article #line { padding: 0 2em; }
-@media (max-width: 800px) { .container .col #article #line { padding: 0; } }
 .container .col #article h1 { width: 100%; font-size: 2rem; text-align: center; padding: 2rem 0; font-weight: normal; }
 .container .col #article .main section { margin-bottom: 40px; }
 .container .col #article .main section h2 { font-size: 1rem; margin-bottom: 20px; }
@@ -36,7 +35,8 @@ pre { font-family: sans-serif; }
 .container .col #article .main .second .side h2 { font-size: 1rem; text-align: center; }
 .container .col #article .main .second .side div { background-color: #f5f0ea; padding: 10%; border-radius: 3%; }
 .container .col #article .main .second .side div hr { border: none; height: 1px; background-color: #ddd; }
-.container .col #article .main .second .side div ol { font-size: 14px; font-weight: normal; line-height: 40px; margin: 5% 0 0 5%; }
+.container .col #article .main .second .side div ol { font-size: 14px; font-weight: normal; margin: 5% 0 0 5%; }
+.container .col #article .main .second .side div ol li { word-break: keep-all; padding-top: 16px; }
 @media (max-width: 800px) { .container .col #article .main .second .side { width: 100%; margin-left: 0; } }
 .container .col #article .main .second .sec_all { -webkit-box-flex: 5; -ms-flex: 5; flex: 5; width: 50%; margin-left: 2%; margin-bottom: 0; }
 @media (max-width: 800px) { .container .col #article .main .second .sec_all { width: 100%; margin-left: 0; } }
