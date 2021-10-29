@@ -82,6 +82,9 @@ a {text-decoration: none; color:#333;}
                   justify-content: center;
                   margin-bottom: 1.2rem;
                 }
+                @media (max-width: 1000px) {
+                  text-align: center;
+                }
                 span {
                   display: block;
                   font-size: 1rem;
@@ -102,7 +105,7 @@ a {text-decoration: none; color:#333;}
 
                 b {}
               }
-              p:not(:nth-of-type(3n)){margin-bottom: 8px;}
+              p:not(:nth-of-type(3n)){margin-bottom: 6px;}
             }
           }
         }
