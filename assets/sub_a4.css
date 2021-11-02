@@ -19,16 +19,10 @@ a { text-decoration: none; color: #333; }
 .container .col #article { padding: 0 2em; }
 @media (max-width: 800px) { .container .col #article #line { padding: 0; } }
 .container .col #article h1 { width: 100%; font-size: 2rem; text-align: center; padding: 2rem 0; font-weight: normal; }
-.container .col #article .sub_a4Container { width: 100%; text-align: center; position: relative; }
-.container .col #article .sub_a4Container section p { position: relative; padding: 5px 0; width: 100%; }
-.container .col #article .sub_a4Container section p span { width: 50%; display: inline-block; padding: 10px 0; border: 1px solid #ddd; }
-.container .col #article .sub_a4Container .sec2 { position: absolute; right: 11%; top: 60px; }
-.container .col #article .sub_a4Container .sec2 p { width: 180%; }
-.container .col #article .sub_a4Container .sec2 p span { width: 100%; }
-.container .col #article .sub_a4Container .sec4, .container .col #article .sub_a4Container .sec5 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 80%; margin-left: 10%; }
-.container .col #article .sub_a4Container .sec4 div, .container .col #article .sub_a4Container .sec5 div { width: 80%; }
-.container .col #article .sub_a4Container .sec4 div p span, .container .col #article .sub_a4Container .sec5 div p span { width: 100%; display: inline-block; padding: 10px 0; border: 1px solid #ddd; }
-.container .col #article .sub_a4Container .line { display: inline-block; width: 2px; height: 130px; background-color: #ddd; }
-.container .col #article .sub_a4Container .line2 { display: inline-block; width: 22%; height: 2px; background-color: #ddd; position: absolute; right: 28%; top: 115px; }
+.container .col #article .sub_a4Container { width: 100%; text-align: center; }
+.container .col #article .sub_a4Container section { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.container .col #article .sub_a4Container section p { background-color: #ddd; padding: 15px 0; width: 100%; }
+.container .col #article .sub_a4Container .sec2, .container .col #article .sub_a4Container .sec4, .container .col #article .sub_a4Container .sec5 { width: 100%; }
+.container .col #article .sub_a4Container .sec2 div p, .container .col #article .sub_a4Container .sec4 div p, .container .col #article .sub_a4Container .sec5 div p { width: 50%; }
 
 /*# sourceMappingURL=sub_a4.css.map */
