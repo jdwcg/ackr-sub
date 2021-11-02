@@ -19,10 +19,11 @@ a { text-decoration: none; color: #333; }
 .container .col #article { padding: 0 2em; }
 @media (max-width: 800px) { .container .col #article #line { padding: 0; } }
 .container .col #article h1 { width: 100%; font-size: 2rem; text-align: center; padding: 2rem 0; font-weight: normal; }
-.container .col #article .sub_a4Container { width: 100%; text-align: center; }
-.container .col #article .sub_a4Container section { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
-.container .col #article .sub_a4Container section p { background-color: #ddd; padding: 15px 0; width: 100%; }
-.container .col #article .sub_a4Container .sec2, .container .col #article .sub_a4Container .sec4, .container .col #article .sub_a4Container .sec5 { width: 100%; }
-.container .col #article .sub_a4Container .sec2 div p, .container .col #article .sub_a4Container .sec4 div p, .container .col #article .sub_a4Container .sec5 div p { width: 50%; }
+
+.sub_a4Container { width: 100%; text-align: center; }
+.sub_a4Container section { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.sub_a4Container section p { background-color: #ddd; padding: 15px 0; width: 100%; }
+.sub_a4Container .sec2, .sub_a4Container .sec4, .sub_a4Container .sec5 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.sub_a4Container .sec2 div, .sub_a4Container .sec4 div, .sub_a4Container .sec5 div { width: 40%; }
 
 /*# sourceMappingURL=sub_a4.css.map */
