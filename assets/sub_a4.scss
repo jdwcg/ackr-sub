@@ -101,6 +101,10 @@ a {text-decoration: none; color:#333;}
       background-color: #ddd;
       display: block;
       z-index: -1;
+      transition: all .3s;
+      @media (max-width: 440px) {
+        height: 380px;
+      }
     }
   }
 
