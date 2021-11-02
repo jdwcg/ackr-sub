@@ -25,6 +25,14 @@ a { text-decoration: none; color: #333; }
 .sub_a4Container section p { background-color: #ddd; padding: 15px 0; margin: 5px 0; width: 100%; }
 .sub_a4Container .sec2, .sub_a4Container .sec4, .sub_a4Container .sec5 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 .sub_a4Container .sec2 div, .sub_a4Container .sec4 div, .sub_a4Container .sec5 div { width: 49.5%; }
+.sub_a4Container .sec1 { position: relative; }
+.sub_a4Container .sec1 ::before { content: ""; position: absolute; top: 10px; left: 50%; width: 1px; height: 300px; background-color: #ddd; display: block; z-index: -1; }
+.sub_a4Container .sec2 { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+.sub_a4Container .sec2 div { width: 40%; position: relative; }
+.sub_a4Container .sec2 div .line { display: inline-block; width: 20%; height: 1px; background-color: #ddd; position: absolute; right: 105%; top: 50%; }
 .sub_a4Container .sec2 div:nth-child(1) { display: none; }
+.sub_a4Container .sec3 { position: relative; }
+.sub_a4Container .sec3 ::before { content: ""; position: absolute; top: 10px; left: 25%; width: 1px; height: 490px; background-color: #ddd; display: block; z-index: -1; }
+.sub_a4Container .sec3 ::after { content: ""; position: absolute; top: 10px; right: 25%; width: 1px; height: 490px; background-color: #ddd; display: block; z-index: -1; }
 
 /*# sourceMappingURL=sub_a4.css.map */
