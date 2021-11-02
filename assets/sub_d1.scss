@@ -56,12 +56,14 @@ a {text-decoration: none; color:#333;}
           text-align: center;
           padding:2rem 0;
           font-weight: normal;
+          word-break: keep-all;
+
         }
 
         .list {
 
           hr { border:0; height:1px; background-color: #ddd; margin: 1.2rem 0;}
-          .box {
+          > .box {
             display: flex;
             @media (max-width: 800px) {
               flex-wrap: wrap;
@@ -75,7 +77,7 @@ a {text-decoration: none; color:#333;}
                 width: 100%;
               }
 
-              h2 {
+              > h2 {
                 display: flex;
                 word-break: keep-all;
                 @media (max-width: 800px) {
@@ -85,7 +87,7 @@ a {text-decoration: none; color:#333;}
                 @media (max-width: 1000px) {
                   text-align: center;
                 }
-                span {
+                > span {
                   display: block;
                   font-size: 1rem;
                   background-color: #f0e8ec;
@@ -96,14 +98,11 @@ a {text-decoration: none; color:#333;}
               }
             }
             .right {
-              .line {}
-              p {
+             > p {
                 word-break: keep-all;
                 @media (max-width: 800px) {
                   text-align: center;
                 }
-
-                b {}
               }
               p:not(:nth-of-type(3n)){margin-bottom: 6px;}
             }
