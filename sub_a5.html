@@ -7,6 +7,20 @@
     <title>ackr</title>
     <link rel="stylesheet" href="assets/sub_a5.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.bus').click(function(){
+          $('.tab_bus').css('display','block');
+          $('.tab_sub').css('display','none');
+        });
+        $('.subway').click(function(){
+          $('.tab_sub').css('display','block');
+          $('.tab_bus').css('display','none');
+        });
+      });
+    </script>
 </head>
 <body>
     <div class="spaceSub"></div>
@@ -44,40 +58,40 @@
                               <section>
                                 <h3>서울시내 연결 교통편</h3>
                                 <p>2호선 신촌역 6번출구에서 정문까지 도보로 8분</p>
-                                <p>2호선 신촌역 6번출구에서 정문까지 도보로 8분</p>
-                                <p>2호선 신촌역 6번출구에서 정문까지 도보로 8분</p>
+                                <p>6호선 대흥역 1번출구에서 남문까지 도보로 5분</p>
+                                <p>경의선 서강대역 1번출구에서 정문까지 도보로 3분</p>
                               </section>
                               <section>
                                 <h3>서울역(경부선)에서 오시는 길</h3>
-                                <p>1호선 탑승 후 시청역에서 2호선으로 환승하여 신촌역에서 하차 <span>(환승 포함하여 신촌역까지 약 30분 소요)</span></p>
+                                <p>1호선 탑승 후 시청역에서 2호선으로 환승하여 신촌역에서 하차<br><span>(환승 포함하여 신촌역까지 약 30분 소요)</span></p>
                               </section>
                               <section>
                                 <h3>용산역(호남선)에서 오시는 길</h3>
-                                <p>1호선 탑승 후 시청역에서 2호선으로 환승하여 신촌역에서 하차 <span>(환승 포함하여 신촌역까지 약 35분 소요)</span></p>
+                                <p>1호선 탑승 후 시청역에서 2호선으로 환승하여 신촌역에서 하차<br><span>(환승 포함하여 신촌역까지 약 35분 소요)</span></p>
                               </section>
                               <section>
                                 <h3>청량리역(중앙선)에서 오시는 길</h3>
-                                <p>1호선 탑승 후 시청역에서 2호선으로 환승하여 신촌역에서 하차 <span>(환승 포함하여 신촌역까지 약 40분 소요)</span></p>
+                                <p>1호선 탑승 후 시청역에서 2호선으로 환승하여 신촌역에서 하차<br><span>(환승 포함하여 신촌역까지 약 40분 소요)</span></p>
                               </section>
                               <section>
                                 <h3>강남고속터미널에서 오시는 길</h3>
-                                <p>3호선 탑승 후 을지로3가역에서 2호선으로 환승하여 신촌역에서 하차 <span>(환승 포함하여 신촌역까지 약 40분 소요)</span></p>
+                                <p>3호선 탑승 후 을지로3가역에서 2호선으로 환승하여 신촌역에서 하차<br><span>(환승 포함하여 신촌역까지 약 40분 소요)</span></p>
                               </section>
                               <section>
                                 <h3>동서울터미널에서 오시는 길</h3>
-                                <p>강변역에서 2호선 탑승 후 신촌역에서 하차 <span>(환승 포함하여 신촌역까지 약 40분 소요)</span></p>
+                                <p>강변역에서 2호선 탑승 후 신촌역에서 하차<br><span>(환승 포함하여 신촌역까지 약 40분 소요)</span></p>
                               </section>
                               <section>
                                 <h3>남부터미널에서 오시는 길</h3>
-                                <p>3호선 탑승 후 을지로3가역에서 2호선으로 환승하여 신촌역에서 하차 <span>(환승 포함하여 신촌역까지 약 50분 소요)</span></p>
+                                <p>3호선 탑승 후 을지로3가역에서 2호선으로 환승하여 신촌역에서 하차<br><span>(환승 포함하여 신촌역까지 약 50분 소요)</span></p>
                               </section>
                               <section>
                                 <h3>김포공항에서 오시는 길</h3>
-                                <p>공항철도 탑승 후 홍대입구역에서 2호선으로 환승하여 신촌역에서 하차 <span>(환승 포함하여 신촌역까지 약 35분 소요)</span></p>
+                                <p>공항철도 탑승 후 홍대입구역에서 2호선으로 환승하여 신촌역에서 하차<br><span>(환승 포함하여 신촌역까지 약 35분 소요)</span></p>
                               </section>
                               <section>
                                 <h3>인천공항에서 오시는 길</h3>
-                                <p>공항철도 탑승 후 홍대입구역에서 2호선으로 환승하여 신촌역에서 하차 <span>(환승 포함하여 신촌역까지 약 70분 소요)</span></p>
+                                <p>공항철도 탑승 후 홍대입구역에서 2호선으로 환승하여 신촌역에서 하차<br><span>(환승 포함하여 신촌역까지 약 70분 소요)</span></p>
                               </section>
                             </div>
                             <div class="tab_bus">
@@ -88,7 +102,7 @@
                               </section>
                               <section>
                                 <h3>인천공항에서 오시는 길</h3>
-                                <p>1층 입국층 5B 또는 12A 승차장에서 6002번을 타고 신촌 현대백화점 앞에서 하차 <span>(신촌 현대백화점까지 약 80분소요, 도로사정에 따라 달라질 수 있음)</span></p>
+                                <p>1층 입국층 5B 또는 12A 승차장에서 6002번을 타고 신촌 현대백화점 앞에서 하차<br><span>(신촌 현대백화점까지 약 80분소요, 도로사정에 따라 달라질 수 있음)</span></p>
                               </section>
                             </div>
                           </section>
@@ -98,13 +112,5 @@
             </div>
         </div>
     </section>
-
-    <script>
-      $(document).ready(function(){
-        $('.bus').click(function(){
-          $('.tab_bus').css('display','block');
-        });
-      });
-    </script>
 </body>
 </html>

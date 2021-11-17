@@ -1,0 +1,121 @@
+* { margin: 0;  padding: 0; box-sizing: border-box; }
+li { list-style: none;}
+a {text-decoration: none; color:#333;}
+
+.container {
+  margin:0 auto;
+  width:100%;
+  max-width: 1200px;
+  h1 { text-align: center;}
+
+  .row {
+    width:100%;
+    display:flex;
+    margin:0 auto;
+
+
+    .subMenuList {
+      width:100%;
+      flex:2;
+      border-right: 1px solid #ddd;
+      @media (max-width: 800px) {
+        display: none;
+      }
+
+      ul {
+        width:100%;
+        li {
+          overflow:hidden;
+          transition: .4s;
+        span { float:right;}
+          a {
+            display:block;
+            color:#333;
+            font-size: 16px;
+            transition: .4s;
+            padding:0.4rem 1em;
+          }
+        }
+        :hover { background-color: #ddd; }
+        :hover a { color:#a81f00; }
+      }
+    }
+  }
+
+  .col {
+    width:100%;
+    flex:8;
+    padding:32px 0;
+
+    #sub_a5Article {
+      h1 {
+          width:100%;
+          font-size: 2rem;
+          text-align: center;
+          padding:2rem 0;
+          font-weight: normal;
+          word-break: keep-all;
+      }
+      .sub_a5Container {
+        padding:0 2em;
+
+        .sub_a5Top {
+          h2 {
+            font-size: 16px;
+          }
+          p {
+            font-weight: bold;
+            margin: 10px 0;
+          }
+          div {}
+        }
+
+        .sub_a5Middle {
+          width: 100%;
+          word-break: keep-all;
+
+          hr { border:0; height: 1px; background: #ddd; margin: 1.2rem 0;}
+          h2 {
+            margin: 1.2rem 0; 
+            p {
+              background:  #f0e8ec;
+              text-align: center;
+              padding:10px 0;
+              width: 18%;
+              border-radius: 32px;
+              font-size: 18px;
+              transition: all .5s;
+              @media (max-width: 400px) {
+                width: 100%;
+              }
+
+            }
+          }
+          div {
+            overflow: hidden;
+            display: flex;
+            h3 { font-size: 16px; width: 30%;
+              @media (max-width: 600px) {
+                width: 100%;
+              }
+
+            }
+            p {
+              line-height: 26px; width: 70%;
+              span { color: #999; }
+              @media (max-width: 600px) {
+                width: 100%;
+              }
+
+            }
+            @media (max-width: 600px) {
+              display: block;
+            }
+          }
+          :not(:last-child) { margin-bottom: 3%; }
+        }
+
+      }
+    }
+  }
+}
