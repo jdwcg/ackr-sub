@@ -16,22 +16,22 @@ a { text-decoration: none; color: #333; }
 .container .row .subMenuList ul :hover { background-color: #ddd; }
 .container .row .subMenuList ul :hover a { color: #a81f00; }
 .container .col { width: 100%; -webkit-box-flex: 8; -ms-flex: 8; flex: 8; padding: 32px 0; }
-.container .col #sub_a5Article h1 { width: 100%; font-size: 2rem; text-align: center; padding: 2rem 0; font-weight: normal; word-break: keep-all; }
+.container .col #sub_a5Article h1 { width: 100%; font-size: 2rem; text-align: center; padding: 2rem 0; font-weight: 100; word-break: keep-all; }
 .container .col #sub_a5Article .sub_a5Container { padding: 0 2em; }
+.container .col #sub_a5Article .sub_a5Container .sub_a5Top { word-break: keep-all; }
 .container .col #sub_a5Article .sub_a5Container .sub_a5Top h2 { font-size: 16px; }
 .container .col #sub_a5Article .sub_a5Container .sub_a5Top p { font-weight: bold; margin: 10px 0; }
 .container .col #sub_a5Article .sub_a5Container .sub_a5Middle { width: 100%; word-break: keep-all; }
 .container .col #sub_a5Article .sub_a5Container .sub_a5Middle hr { border: 0; height: 1px; background: #ddd; margin: 1.2rem 0; }
 .container .col #sub_a5Article .sub_a5Container .sub_a5Middle h2 { margin: 1.2rem 0; }
-.container .col #sub_a5Article .sub_a5Container .sub_a5Middle h2 p { background: #f0e8ec; text-align: center; padding: 10px 0; width: 18%; border-radius: 32px; font-size: 18px; -webkit-transition: all .5s; transition: all .5s; }
-@media (max-width: 400px) { .container .col #sub_a5Article .sub_a5Container .sub_a5Middle h2 p { width: 100%; } }
-.container .col #sub_a5Article .sub_a5Container .sub_a5Middle div { overflow: hidden; display: -webkit-box; display: -ms-flexbox; display: flex; }
+.container .col #sub_a5Article .sub_a5Container .sub_a5Middle h2 p { background: #f0e8ec; text-align: center; width: 20%; padding: 10px; border-radius: 32px; font-size: 18px; -webkit-transition: all .5s; transition: all .5s; }
+@media (max-width: 600px) { .container .col #sub_a5Article .sub_a5Container .sub_a5Middle h2 p { width: 100%; } }
+.container .col #sub_a5Article .sub_a5Container .sub_a5Middle div { overflow: hidden; display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 5%; }
 .container .col #sub_a5Article .sub_a5Container .sub_a5Middle div h3 { font-size: 16px; width: 30%; }
 @media (max-width: 600px) { .container .col #sub_a5Article .sub_a5Container .sub_a5Middle div h3 { width: 100%; } }
 .container .col #sub_a5Article .sub_a5Container .sub_a5Middle div p { line-height: 26px; width: 70%; }
 .container .col #sub_a5Article .sub_a5Container .sub_a5Middle div p span { color: #999; }
 @media (max-width: 600px) { .container .col #sub_a5Article .sub_a5Container .sub_a5Middle div p { width: 100%; } }
 @media (max-width: 600px) { .container .col #sub_a5Article .sub_a5Container .sub_a5Middle div { display: block; } }
-.container .col #sub_a5Article .sub_a5Container .sub_a5Middle :not(:last-child) { margin-bottom: 3%; }
 
 /*# sourceMappingURL=sub_a5-2.css.map */
